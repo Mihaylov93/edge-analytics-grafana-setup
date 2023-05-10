@@ -1,3 +1,19 @@
+<!-- markdownlint-disable -->
+<style>
+/* The below `img` style sets the default CSS styling for all images hereafter in this markdown
+file. */
+img
+{
+    /* Default display value is `inline-block`. Set it to `block` to prevent surrounding text from
+    wrapping around the image. Instead, `block` format will force the text to be above or below the
+    image, but never to the sides. */
+    display:block; 
+    float:none; 
+    margin-left:auto;
+    margin-right:auto;
+}
+</style>
+<!-- markdownlint-enable -->
 # Local Grafana Deployment
 
 ## Requirements
