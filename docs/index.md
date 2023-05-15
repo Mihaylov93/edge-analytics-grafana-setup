@@ -33,7 +33,7 @@ instructions for the Docker-based deployment as it is more portable and cross-pl
 
 ### Getting Grafana up and running (Linux only)
 
-1. First download the docker-compose file from [here](/files/docker-compose.yaml).
+1. First download the docker-compose file from [here](./files/docker-compose.yaml).
 
 2. On a terminal opened in the same directory where you download the docker-compose.yaml file you
 can simply type: `docker compose up -d grafana`
@@ -53,7 +53,7 @@ To install the plugin from the UI you just have to (other installation methods d
 [here][grafana-json-datasource-install]):
 
 1. Navigate to the *Configuration > Plugins* section.
-![Configuration > Plugins](/images/plugins.png)
+![Configuration > Plugins](./images/plugins.png)
 2. Search for the term “JSON API” so you should get the plugin developed by Marcus Olsson.
 ![JSON API Plugin](/images/json-api-plugin.png)
 3. Click on the *Install* button.
@@ -71,7 +71,7 @@ To install the plugin from the UI you just have to (other installation methods d
 
 ### Importing Edge Analytics dashboards
 
-You can import the Edge Analytics dashboard that we have made available [here](/files/ea-basic-dashboard.json).
+You can import the Edge Analytics dashboard that we have made available [here](./files/ea-basic-dashboard.json).
 
 To import it:
 
